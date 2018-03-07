@@ -1,0 +1,36 @@
+var abi=[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "novaSaudacao",
+				"type": "string"
+			}
+		],
+		"name": "setOla",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "ola",
+		"outputs": [
+			{
+				"name": "itSays",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
+]
